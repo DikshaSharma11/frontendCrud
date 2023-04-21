@@ -1,0 +1,104 @@
+/* UserForm styles */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.form-group input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #3e8e41;
+}
+
+/* UserList styles */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 20px auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.list-item p {
+  margin: 0;
+}
+
+.list-item button {
+    color: white;
+    background-color: #21b95b;
+    border-radius: 18px;
+    border-color: navy;
+    padding: 6px;
+}
+
+.list-item button:hover {
+  background-color: #cc0000;
+}
+
+.list-item button.edit {
+  background-color: #4caf50;
+}
+
+.list-item button.edit:hover {
+  background-color: #3e8e41;
+}
+
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
