@@ -79,6 +79,7 @@ const UserForm = ({ userToEdit, setUserToEdit }) => {
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
+required        
         />
       </label>
       <label>
@@ -87,6 +88,7 @@ const UserForm = ({ userToEdit, setUserToEdit }) => {
           type="number"
           value={age}
           onChange={(e) => setAge(e.target.value)}
+          required
         />
       </label>
       <label>
@@ -95,6 +97,7 @@ const UserForm = ({ userToEdit, setUserToEdit }) => {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
         />
       </label>
       <label>
@@ -127,4 +130,4 @@ const UserList = ({ setUserToEdit }) => {
   );
 };
 
-export { UserProvider, UserForm, UserList }
+export { UserProvider, UserForm, UserList };
